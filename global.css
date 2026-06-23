@@ -1,8 +1,16 @@
 @font-face {
 	font-family: "Source Sans 3";
-	src: url("fonts/SourceSans3-Regular.woff2") format("woff2");
+	src: url("fonts/SourceSans3-VariableFont_wght.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Source Sans 3";
+	src: url("fonts/SourceSans3-Italic-VariableFont_wght.woff2") format("woff2");
+	font-style: italic;
+	font-weight: 200 900;
 	font-display: swap;
 }
 
@@ -30,8 +38,8 @@ body {
 	color: var(--foreground);
 	
 	font-family: "Source Sans 3", sans-serif;
-	font-size: 1.05rem;
-	line-height: 1.6;
+	font-size: 1.20rem;
+	line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
